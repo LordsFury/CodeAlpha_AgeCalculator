@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+.heading {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.heading h1 {
+    text-align: center;
+    box-shadow: .1em .1em 1.5rem .5rem #1a0eb9;
+    color: white;
+}
+.container {
+    margin-top: 10vh;
+}
+.boxes {
+    width: 80%;
+    max-width: 400px;
+    height: 55vh;
+    border: 2px solid #e12e21;
+    background-color: #e12e21;
+    margin: auto;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: .2em .2em 1.5rem 1rem #795548;
+}
+.txt {
+    padding: .5rem;
+}
+.txt label {
+    font-size: 3vmin;
+    font-weight: bold;
+    color: chartreuse;
+}
+.box input {
+    margin-bottom: 5vh;
+    background-color: #FFC107;
+    border: 2px solid #FFC107;
+    box-shadow: .1em .1em 1.5rem .5rem #dac136;
+    height: 5vh;
+    width: 80%;
+    max-width: 200px;
+    border-radius: .3rem;
+    padding: .3rem;
+    font-size: 1rem;
+}
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}
+.btn button {
+    text-align: center;
+    background-color: #0dbfae;
+    border: 2px solid #0dbfae;
+    box-shadow: .1em .1em 1rem .5rem #0dbfae;
+    width: 50%;
+    max-width: 200px;
+    height: 2rem;
+    border-radius: .3rem;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn button:hover {
+    background-color: #0ba797;
+    border: 2px solid #0ba797;
+    box-shadow: .1em .1em 1rem .5rem #0ba797;
+}
+.sub {
+    text-align: center;
+    margin-top: 5vh;
+}
+#msg {
+    font-size: 5vmin;
+    font-weight: bold;
+    color: firebrick;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .boxes {
+        height: 60vh;
+    }
+    .txt label {
+        font-size: 4vmin;
+    }
+}
+
+@media (max-width: 992px) {
+    .boxes {
+        height: 50vh;
+    }
+    .txt label {
+        font-size: 4vmin;
+    }
+    .box input {
+        height: 4.5vh;
+        font-size: 1rem;
+    }
+    .btn button {
+        height: 2.5rem;
+        font-size: 2.5vmin;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 5vh;
+    }
+    .boxes {
+        height: 50vh;
+    }
+    .txt label {
+        font-size: 5vmin;
+    }
+    .box input {
+        height: 4vh;
+        font-size: 0.9rem;
+    }
+    .btn button {
+        font-size: 3vmin;
+    }
+    #msg {
+        font-size: 6vmin;
+    }
+}
+
+@media (max-width: 576px) {
+    .boxes {
+        height: 50vh;
+    }
+    .txt label {
+        font-size: 5.5vmin;
+    }
+    .box input {
+        height: 3.5vh;
+        font-size: 0.8rem;
+    }
+    .btn button {
+        font-size: 3.5vmin;
+    }
+    #msg {
+        font-size: 7vmin;
+    }
+}
+
+@media (max-width: 400px) {
+    .boxes {
+        height: 50vh;
+    }
+    .txt label {
+        font-size: 6vmin;
+    }
+    .box input {
+        height: 3vh;
+        font-size: 0.7rem;
+    }
+    .btn button {
+        font-size: 4vmin;
+    }
+    #msg {
+        font-size: 8vmin;
+    }
+}
